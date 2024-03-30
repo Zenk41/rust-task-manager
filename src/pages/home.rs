@@ -1,4 +1,5 @@
 use crate::components::counter_btn::Button;
+use crate::components::list::List;
 use leptos::*;
 
 /// Default Home Page
@@ -23,6 +24,7 @@ pub fn Home() -> impl IntoView {
                 </ul>
             }
         }>
+        <List/>
 
             <div class="container">
 
